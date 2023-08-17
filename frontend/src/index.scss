@@ -1,0 +1,21 @@
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --col1: #F1F3F8;
+  --col2: #D6E0F0;
+  --col3: #8D93AB;
+  --col4: #393B44;
+  --col5: #FF2E63;
+}
+
+body {
+  background-color: var(--col2);
+}

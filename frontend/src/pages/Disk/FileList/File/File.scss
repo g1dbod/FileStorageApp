@@ -1,0 +1,42 @@
+.file {
+    width: 100%;
+    height: 100%;
+    // border: 1px solid var(--col5);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    
+    overflow: hidden;
+
+    transition: transform .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    img {
+        width: 100%;
+        
+    }
+
+    .filef {
+        transform: scale(1.5);
+    }
+
+    .folder {
+        transform: scale(1.7);
+    }
+
+    label {
+        width: 100%;
+        height: 100%;
+
+        overflow: hidden;
+        text-align: center;
+        white-space: normal;
+        
+    }
+}

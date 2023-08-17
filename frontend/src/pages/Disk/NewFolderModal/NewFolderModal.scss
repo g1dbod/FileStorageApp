@@ -1,0 +1,52 @@
+.NewFolderModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .MainBlock {
+        width: 25vw;
+        height: 20vh;
+
+        background-color: var(--col2);
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        letter-spacing: 2px;
+
+
+        .title {
+            font-size: 25px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input {
+            width: 80%;
+            padding: 5px 10px;
+            font-size: 18px;
+            outline: none;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        button {
+            width: 80%;
+            padding: 5px 10px;
+            font-size: 20px;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}

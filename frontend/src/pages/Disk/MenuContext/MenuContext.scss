@@ -1,0 +1,30 @@
+.MenuContext {
+    width: 6vw;
+    background-color: var(--col3);
+
+    position: absolute;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+
+    border-radius: 5px;
+
+    li {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+        padding: 5px 10px;
+        transition:
+            background-color .2s ease-in-out,
+            color .2s ease-in-out;
+
+        &:hover {
+            background-color: var(--col4);
+            color: var(--col2);
+        }
+    }
+}
